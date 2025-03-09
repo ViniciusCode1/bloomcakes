@@ -1,0 +1,48 @@
+/*Reset*/
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Rodapé FIXO*/
+
+.rodape_container{
+  position:static;
+  bottom: 10%;
+  background: rgb(176, 31, 125);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+.rodape_texto{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1em;
+  margin: 0px 20px; 
+}
+.contato {
+  font-size: 1.1em;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+.contato a {
+  text-decoration: none;
+  color: black;
+}
+
+.copy {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.contato {
+  text-align: center;
+}
+.contato img {
+  width: 30px;
+  height: auto;
+  margin: 5px;
+}

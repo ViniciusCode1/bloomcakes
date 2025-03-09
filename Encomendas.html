@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloom Cake's | Confeitaria</title>
+    <link
+      rel="shortcut icon"
+      href="/img/Bloom Cake's.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style_header_FIXO.css" />
+  <link rel="stylesheet" href="style_footer_FIXO.css" />
+  <link rel="stylesheet" href="style_body_FIXO.css"/>
+    <link rel="stylesheet" href="style_form_encomenda.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <!--Cabeçalho Navegação-->
+    <header>
+      <section class="top-header">
+        <div class="interface">
+          <a href="Tela-Inicial.html"><img src="Bloom Cake's-extenso.jpg" class="nome_extenso"></a>
+          
+          
+          
+          <div class="btn-social">
+            <a href="https://wa.me/5511978796633/?text=Olá vim para conhecer a marca!"
+            target="_blank"><button><img src="whatsapp.svg
+              " /></a
+                ></button
+            ></a>
+            <a href="https://www.instagram.com/bloom_.cakes?igsh=MXZzdG1xY
+            TIza2V2Mw=="
+              target="_blank"><button><img src="instagram.svg" /></button
+            ></a>
+            <a href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo
+            sp/bloom-cakes---bolos-e-doces-pauliceia/e0e07ce0-2cce-4
+             a05-8ae4-beb7557c0544?UTM_Medium=share"
+             target="_blank"><button><img src="ifood-svgrepo-com.svg" /></button
+            ></a>
+          </div>
+          </div>
+    </section>
+    <section class="bottom-header">
+      <div class="interface">
+        <nav>
+          <ul>
+            <li><a href="index.html" alt="Tela Inicial">Início</a></li>
+            <li><a href="Sobre-nos.html" alt="Sobre a loja">Sobre Nós</a></li>
+            <li class="menu-produtos" alt="Produtos">
+              <a href="index.html#lista_produtos"
+                >Catálogo<i class="bi bi-arrow-down-short"></i
+              ></a>
+            </li>
+            <li>
+              <a href="Encomendas.html" alt="Encomende seu pedido">Encomendas</a>
+            </li>
+            <li>
+              <a
+                href="Personalize-seu-Bolo.html"
+                alt="Escolha suas preferencias no bolo"
+              >Personalize seu bolo</a></li>
+              <li><a
+                href="Serv-Atend-Cliente.html"
+                alt="Serviço de Atendimento ao Cliente"
+              >SAC</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </header>
+    <!---->
+    <!---->
+    <!---->
+
+    <!--Conteúdo principal-->
+    <main>
+      <section class="info_encomendas">
+        <h3>Sistema de encomendas</h3>
+        <p>
+          Nosso sistema de envio é dividido em duas opções: 
+        </p>
+
+          <ul>
+            <li>Retirada feita pelo cliente, onde NÃO é cobrado nenhum tipo de valor adicional;</li>
+            <li>Nossa loja efetua a entrega até o destino desejado, sendo limitado a regiões: São Bernardo do Campo, Santo André, Rudge Ramos, Taboão e Diadema. Caso não seja de alguma dessas regiões consultar opções de entrega via WhatsApp! Nessa opção é cobrado um frete de R$2,50 por Km.</li>
+
+          </ul>
+
+        
+      </section>
+      <section class="info_envio_encomendas">
+        <h2>Sistema de envio</h2>
+        
+          <ul>
+              <p>Quer encomendar com a gente? É simples! Veja como funciona.
+                :</p>
+                 <li>Aceitamos encomendas com até 5 dias de antecedência da data do evento;</li>
+ <li>Fechamento de encomendas somente com 50% do valor pago. Em caso de desistência com até 4 dias antes da data de entrega NÃO será feita a devolução desse valor!</li>
+            
+          </ul>
+        
+      </section>
+
+
+
+
+      <!--Formulário pedidos (encomendas)-->
+      <h1 id="form">Realize sua encomenda!</h1>
+      <section class="form_encomenda">
+        
+        <form id="pedidoForm">
+          <div class="form_produto">
+            <label for="nome">Seu nome:</label>
+            <input class="resposta_caixinha" type="text" id="nome_cliente" name="nome" placeholder="Nome Completo" required />
+          </div>
+          <div class="form_produto">
+            <label for="email">Seu melhor E-mail:</label>
+            <input class="resposta_caixinha" type="email" id="email_cliente" name="email" placeholder="MeuEmail123@gmail.com" required />
+          </div>
+          <div class="form_produto">
+            <label for="produto">Tipos:</label>
+            <select class="caixinha_form" id="produto" name="produto_encomendado" required>
+              <option value="">Clique e escolha</option>
+              <option value="Cento de Brigadeiro">Cento de Brigadeiro</option>
+              <option value="Mini Bombons">Mini Bombons</option>
+              <option value="Mini Cones">Mini Cones</option>
+              <option value="Docinhos no Copo">Docinhos no Copo</option>
+            </select>
+          </div>
+          <div class="form_produto">
+            <label for="sabor">Sabor:</label>
+            <select class="caixinha_form" id="sabor" name="sabor_encomendado" required>
+              <option value="">Clique e escolha</option>
+              <option value="Brigadeiro">Brigadeiro</option>
+              <option value="Beijinho">Beijinho</option>
+              <option value="Chocolate Nobre">Chocolate Nobre</option>
+              <option value="Ninho">Ninho</option>
+              <option value="Maracujá">Maracujá</option>
+              <option value="Churros">Churros</option>
+              <option value="Morango">Morango</option>
+              <option value="Limão">Limão</option>
+            </select>
+          </div>
+          <div class="form_produto">
+            <label for="quantidade">Quantidade:</label>
+            <select class="caixinha_form" id="quantidade" name="qtde_encomendado" required>
+              <option value="">Clique e escolha</option>
+              <option value="25">25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+              <option value="150">150</option>
+            </select>
+          </div>
+          <div class="form_produto">
+            <label for="CEP_cliente">CEP:</label>
+            <input class="resposta_caixinha" name="CEP_cliente" id="CEP_cliente" required pattern="\d{5}-\d{3}" placeholder="00000-000" />
+          </div>
+          <div class="form_produto">
+            <label for="pagamento">Sua forma de pagamento:</label>
+            <select class="caixinha_form" id="pagamento" name="forma_pagamento" required>
+              <option value="">Clique e escolha</option>
+              <option value="Débito">Débito</option>
+              <option value="Crédito">Crédito</option>
+              <option value="Pix">Pix</option>
+            </select>
+          </div>
+          <br />
+          <button class="button_pedido" type="submit">Confirmar pedido por WhatsApp</button>
+          <button class="button_limpar" type="reset">Limpar seleção</button>
+        </form>
+        
+        <script>
+          document.getElementById("pedidoForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            
+            const nome = document.getElementById("nome_cliente").value;
+            const email = document.getElementById("email_cliente").value;
+            const produto = document.getElementById("produto").value;
+            const sabor = document.getElementById("sabor").value;
+            const quantidade = document.getElementById("quantidade").value;
+            const cep = document.getElementById("CEP_cliente").value;
+            const pagamento = document.getElementById("pagamento").value;
+            
+            if (!nome || !email || !produto || !sabor || !quantidade || !cep || !pagamento) {
+              alert("Por favor, preencha todos os campos.");
+              return;
+            }
+            
+            const telefone = "5511978796633";
+            const mensagem = `Olá, meu nome é ${nome}.\nGostaria de encomendar:\nProduto: ${produto}\nSabor: ${sabor}\nQuantidade: ${quantidade}\nCEP: ${cep}\nForma de pagamento: ${pagamento}\nMeu e-mail: ${email}`;
+            const url = `https://wa.me/${telefone}?text=${encodeURIComponent(mensagem)}`;
+            
+            window.open(url, "_blank");
+          });
+        </script>
+      </section>
+    <!--FINAL Formulário pedidos (encomendas)-->
+   
+
+
+
+
+    <!-- Botões de contato (Wpp, Insta, Ifood)-->
+    <div class="botoes_apps">
+      <a
+          href="https://wa.me/5511978796633/?text=Olá vim para conhecer a marca!"
+          target="_blank"
+          alt="Whatsapp"
+          ><img src="whatsapp_app.png" /></a
+        >
+        <a
+          href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo
+    sp/bloom-cakes---bolos-e-doces-pauliceia/e0e07ce0-2cce-4
+     a05-8ae4-beb7557c0544?UTM_Medium=share "
+          target="_blank"
+          alt="Instagram"
+          id="ifood_logo_color"
+          ><img src="ifood.png" /></a
+        >
+        <a
+          href="https://www.instagram.com/bloom_.cakes?igsh=MXZzdG1xY
+    TIza2V2Mw=="
+          target="_blank"
+          alt="Ifood"
+          ><img src="instagram_app.png" /></a
+        >
+    </div>
+  </main>
+    
+
+
+
+    <!-- Rodapé com Informações de contato e agradecimentos-->
+    <footer class="rodape_container">
+      <p class="rodape_texto">
+        Bloom Cake's Confeitaria<br />
+  
+        <div class="contato">
+             Contatos: <br />
+             <br>
+            <a href="https://wa.me/5511978796633/?text=Olá vim para conhecer a marca!"><img src="whatsapp.svg"></a>
+            <a href="https://www.instagram.com/bloom_.cakes?igsh=MXZzdG1xY
+            TIza2V2Mw=="><img src="instagram.svg"></a>
+           <a href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo
+            sp/bloom-cakes---bolos-e-doces-pauliceia/e0e07ce0-2cce-4
+             a05-8ae4-beb7557c0544?UTM_Medium=share"><img src="ifood-svgrepo-com.svg" /></a> </div>
+  
+  
+        <div class="copy">
+        &copy; Ti Sages - Todos os direitos Reservados - 2025
+      </div>
+      </p>
+    </footer>
+  </body>
+</html>
