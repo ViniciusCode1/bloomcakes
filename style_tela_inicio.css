@@ -23,7 +23,11 @@
     padding: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     font-weight: bolder;
-    font-size: 20px
+    font-size: 20px;
+  }
+  
+  .titulo01{
+    margin-top: 15px;
   }
   .Queridinhos_box{ 
     background-color: #ffe5b4;
